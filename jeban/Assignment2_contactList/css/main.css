@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+}
+
+body {
+    width: 500px;
+}
+
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.container-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0.25rem;
+    gap: 1rem;
+}
+
+.contact-section {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contact-img {
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.contact-email {
+    color: lightblue;
+}
+
+.contact-detail-icon {
+    float: left;
+    padding: 1rem;
+}
